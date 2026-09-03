@@ -23,7 +23,7 @@ public class HoleSnap extends Module {
         BlockPos playerPos = mc.player.getBlockPos();
         Vec3d velocity = mc.player.getVelocity();
         
-        for (Direction direction : Direction.HORIZONTAL) {
+        for (Direction direction : Direction.Type.HORIZONTAL) {
             BlockPos holePos = playerPos.offset(direction);
             
             if (isHole(holePos)) {

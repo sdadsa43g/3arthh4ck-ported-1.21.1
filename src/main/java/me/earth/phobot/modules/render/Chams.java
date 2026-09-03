@@ -27,7 +27,7 @@ public class Chams extends Module {
     
     @Override
     public void onDisable() {
-        WorldRenderEvents.AFTER_TRANSLUCENT.unregister(this::render);
+        WorldRenderEvents.AFTER_TRANSLUCENT.clear(this::render);
     }
     
     private void render(WorldRenderContext context) {
