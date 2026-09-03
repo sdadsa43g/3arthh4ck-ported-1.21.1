@@ -1,6 +1,7 @@
 package me.earth.phobot.modules.movement;
 
 import me.earth.phobot.modules.Module;
+import me.earth.phobot.modules.Setting;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.math.BlockPos;

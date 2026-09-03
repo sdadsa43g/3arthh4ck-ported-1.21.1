@@ -1,6 +1,7 @@
 package me.earth.phobot.modules.render;
 
 import me.earth.phobot.modules.Module;
+import me.earth.phobot.modules.Setting;
 import net.minecraft.util.Hand;
 
 public class ViewModel extends Module {
