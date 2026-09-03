@@ -5,6 +5,7 @@ import me.earth.phobot.modules.Module;
 import me.earth.phobot.modules.Setting;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.gui.DrawContext;
+import net.minecraft.client.render.RenderTickCounter;
 import java.awt.Color;
 
 public class HUD extends Module {
@@ -23,10 +24,10 @@ public class HUD extends Module {
     
     @Override
     public void onDisable() {
-        HudRenderCallback.EVENT.unregister(this::render);
+        HudRenderCallback.EVENT.clear(this::render);
     }
     
-    private void render(DrawContext context, float tickDelta) {
+    private void render(DrawContext context, RenderTickCounter tickCounter) {
         int y = 5;
         
         if (watermark.getValue()) {
