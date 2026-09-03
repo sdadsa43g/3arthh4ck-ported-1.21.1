@@ -1,67 +1,63 @@
 ```
-# Java/Minecraft development
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java
 *.class
 *.jar
 *.war
 *.ear
 *.nar
-target/
-build/
-
-# Gradle
-.gradle/
-!gradle.properties
-!build.gradle
+*.hprof
 
 # IDE
+.vscode/
 .idea/
 *.iml
 *.ipr
 *.iws
-.vscode/
-.settings/
+.classpath
 .project
+.settings/
 
 # Logs
 *.log
-.log
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.swp
-*~
-.DS_Store
-Thumbs.db
+*.out
 
 # Environment
 .env
 .env.local
 *.env.*
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.swp
+.swo
+
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
+# Python (if any Python files exist in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.so
+.Python
 ```

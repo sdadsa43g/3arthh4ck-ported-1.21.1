@@ -1,6 +1,7 @@
 package me.earth.phobot.modules.render;
 
 import me.earth.phobot.modules.Module;
+import me.earth.phobot.modules.Setting;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.DrawContext;

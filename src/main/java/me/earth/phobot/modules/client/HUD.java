@@ -1,6 +1,8 @@
 package me.earth.phobot.modules.client;
 
+import me.earth.phobot.Phobot;
 import me.earth.phobot.modules.Module;
+import me.earth.phobot.modules.Setting;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.gui.DrawContext;
 import java.awt.Color;
